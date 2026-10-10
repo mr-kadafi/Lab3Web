@@ -1,0 +1,74 @@
+/* Eksperimen CSS pada elemen navigasi */
+nav {
+    background: #1e293b;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #2563eb;
+    border-radius: 5px;
+}
+
+/* Eksperimen CSS ID Selector */
+#intro {
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    border: 2px solid #1d4ed8;
+    min-height: 200px;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#intro h1 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Eksperimen Class Selector */
+.button {
+    padding: 12px 24px;
+    background: #e2e8f0;
+    color: #1e293b;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #ffffff;
+    border-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+/* Eksperimen Class Selector btn-primary */
+.btn-primary {
+    background: #facc15;
+    color: #1e293b;
+}
+
+.btn-primary:hover {
+    background: #fbbf24;
+    color: #000000;
+}
